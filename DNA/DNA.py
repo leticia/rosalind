@@ -7,6 +7,6 @@ def count_nucleotides(dna):
     return a_count, c_count, g_count, t_count
 
 if __name__ == "__main__":
-    sample_dna = open("rosalind_dna.txt").read().strip()
+    sample_dna = open("DNA.txt").read().strip()
     a, c, g, t = count_nucleotides(sample_dna)
     print(a, c, g, t)
