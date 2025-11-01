@@ -32,3 +32,20 @@ TGGGAACCTGCGGGCAGTAGGTGGAAT
 Rosalind_0808
 60.919540
 ```
+
+#### Note on Absolute Error
+
+We say that a number x is within an absolute error of y to a correct
+solution if x is within y of the correct solution. For example, if an exact
+solution is 6.157892, then for x to be within an absolute error of 0.001, we
+must have that |x − 6.157892| < 0.001, or 6.156892 < x < 6.158892.
+
+Error bounding is a vital practical tool because of the inherent round-off
+error in representing decimals in a computer, where only a finite number of
+decimal places are allotted to any number. After being compounded over a
+number of operations, this round-off error can become evident. As a result,
+rather than testing whether two numbers are equal with x = z, you may wish to
+simply verify that |x − z| is very small.
+
+The mathematical field of numerical analysis is devoted to rigorously studying
+the nature of computational approximation.
