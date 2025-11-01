@@ -13,7 +13,7 @@ def rabbit_pairs(n, k):
     return rabbits[-1]
 
 if __name__ == "__main__":
-    with open("rosalind_fib.txt") as f:
+    with open("FIB.txt") as f:
         data = f.read().strip()
     n, k = map(int, data.split())
     total_rabbits = rabbit_pairs(n, k)
