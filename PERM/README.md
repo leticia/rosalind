@@ -1,4 +1,4 @@
-## [CONS](https://rosalind.info/problems/cons/)
+## [PERM](https://rosalind.info/problems/perm/)
 
 ### Problem
 
