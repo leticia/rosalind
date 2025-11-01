@@ -6,6 +6,6 @@ def reverse_complement(dna):
     return reverse_complement_dna
 
 if __name__ == "__main__":
-    sample_dna = open("rosalind_revc.txt").read().strip()
+    sample_dna = open("REVC.txt").read().strip()
     rev_comp = reverse_complement(sample_dna)
     print(rev_comp)
